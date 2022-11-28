@@ -9,7 +9,7 @@ public class Check {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/mydb",
-                "root", "Maanu1107%");
+                "root", "");
  
             // mydb is database
             // mydbuser is name of database
