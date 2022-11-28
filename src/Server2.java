@@ -50,15 +50,15 @@ public class Server2 extends UnicastRemoteObject implements Interface {
             Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/localdb",
-                "root", "Maanu1107%");
+                "root", "");
 			
 				connection1 = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/localdb1",
-					"root", "Maanu1107%");
+					"root", "");
 						
 				connection2 = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/localdb2",
-					"root", "Maanu1107%");
+					"root", "");
 			 
  
             // mydb is database
